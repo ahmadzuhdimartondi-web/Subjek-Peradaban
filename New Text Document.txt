@@ -1,1 +1,115 @@
-index.html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>SKI Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>📜 SKI Explorer</h1>
+  <p>Menjelajahi Peradaban Islam</p>
+</header>
+
+<section>
+  <h2>🧭 Pilih Materi</h2>
+
+  <div class="card">
+    <h3>⚔️ Perang Badar</h3>
+    <a href="badar.html">Masuk</a>
+  </div>
+
+  <div class="card">
+    <h3>⚔️ Perang Uhud</h3>
+    <a href="uhud.html">Masuk</a>
+  </div>
+
+  <div class="card">
+    <h3>🏛️ Abbasiyah</h3>
+    <a href="abbasiyah.html">Masuk</a>
+  </div>
+
+  <div class="card">
+    <h3>🌙 Andalusia</h3>
+    <a href="andalusia.html">Masuk</a>
+  </div>
+
+  <div class="card">
+    <h3>👑 Tokoh Islam</h3>
+    <a href="tokoh.html">Masuk</a>
+  </div>
+
+</section>
+
+<footer>
+  <p>“Sejarah bukan masa lalu, tapi cermin masa depan.”</p>
+</footer>
+
+</body>
+</html>
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background: #1e293b;
+  padding: 30px;
+}
+
+.card {
+  background: #1e293b;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 200px;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Perang Badar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>⚔️ Perang Badar</h1>
+
+<h2>🎬 Kisah</h2>
+<p>
+313 pasukan Muslim menghadapi 1000 pasukan Quraisy.
+Bukan jumlah yang menentukan… tapi iman.
+</p>
+
+<h2>🧠 Pertanyaan</h2>
+<p>Kenapa mereka menang?</p>
+
+<button onclick="jawaban()">Lihat Jawaban</button>
+<p id="hasil"></p>
+
+<h2>✨ Hikmah</h2>
+<p>
+Dalam hidup, kamu mungkin merasa kecil...
+tapi dengan iman dan usaha, kamu bisa menang.
+</p>
+
+<a href="index.html">⬅ Kembali</a>
+
+<script>
+function jawaban() {
+  document.getElementById("hasil").innerHTML =
+  "Karena iman, strategi, dan pertolongan Allah.";
+}
+</script>
+
+</body>
+</html>
